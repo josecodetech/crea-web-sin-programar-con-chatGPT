@@ -1,0 +1,15 @@
+/* estilos.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color:rgb(138, 175, 63); /* Aquí puedes cambiar el color según tu preferencia */
+    color: #333;
+}
+
+h1 {
+    color: blue;
+    font-size: 46px; /* Cambia el tamaño del texto según tu preferencia */
+}
+
+p {
+    font-size: 16px;
+}
