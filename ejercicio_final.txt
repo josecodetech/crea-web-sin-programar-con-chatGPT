@@ -1,0 +1,8 @@
+Crea una pagina web utilizando los conocimientos adquiridos durante el curso, la pagina debe contener, lo siguiente:
+	1. Estructura basica HTML con encabezado, cuerpo y pie de pagina
+	2. Estilos CSS para mejorar la presentacion de la pagina
+	3. Contenido minimo de texto e imagenes 
+	4. Diseño responsive para adaptarse a diferentes tamaños de pantalla
+	5. Subir la pagina a la web mediante GITHUB pages
+	6. Comparte el enlace publicamente en los comentarios del curso o video y muestralo tambien en redes con los hashtags
+#creaWebConChatGPT #josecodetech
