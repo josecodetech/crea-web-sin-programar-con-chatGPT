@@ -9,23 +9,44 @@
         color: #fff; /* Texto blanco */
         font-size: 14px; /* Tamaño de fuente más pequeño */
     }
+/* Estilos para la cabecera */
+header {
+    background-color: #333; /* Color de fondo de la cabecera */
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column; /* Cambio a disposición vertical en pantallas pequeñas */
+    align-items: center;
+}
 
-    /* Estilos para el menú en pantallas pequeñas */
-    .menu {
-        width: 100%;
-        background-color: #FFA000; /* Nuevo color para el menú */
-        color: #333; /* Nuevo color de texto */
-        padding: 10px 0;
-        text-align: center;
-    }
+/* Estilos para el logo */
+header img {
+    max-width: 240px; /* Tamaño máximo del logo */
+    height: auto;
+    margin-bottom: 10px; /* Separación entre el logo y el menú en pantallas pequeñas */
+}
 
-    .menu ul li a {
-        color: #333; /* Nuevo color de texto para enlaces */
-    }
+/* Estilos para el menú */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center; /* Centrar los elementos del menú en pantallas pequeñas */
+}
 
-    .menu ul li a:hover {
-        color: #FF5722; /* Nuevo color al pasar el ratón */
-    }
+nav ul li {
+    display: block;
+    margin-bottom: 10px; /* Espaciado entre los elementos del menú en pantallas pequeñas */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Color del texto del menú */
+    transition: color 0.3s; /* Transición suave del color */
+}
+
+nav ul li a:hover {
+    color: #FFA000; /* Cambio de color al pasar el ratón */
+}
 
     /* Estilos para la barra lateral en pantallas pequeñas */
     .sidebar {
@@ -62,34 +83,38 @@ body {
     color: #333; /* Color de texto principal */
 
 }
+/* Estilos para la cabecera */
+header {
+    background-color: #333; /* Color de fondo de la cabecera */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilos para el logo */
+header img {
+    max-width: 240px; /* Tamaño máximo del logo */
+    height: auto;
+}
 
 /* Estilos para el menú */
-.menu {
-    width: 100%;
-    background-color: #FF5722; /* Color naranja */
-    color: #fff; /* Texto blanco */
-    padding: 10px 0;
-    text-align: center;
-}
-
-.menu ul {
+nav ul {
     list-style: none;
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
 
-.menu ul li {
-    display: inline-block;
+nav ul li {
+    display: inline;
     margin-right: 20px;
 }
 
-.menu ul li a {
-    color: #fff; /* Texto blanco */
+nav ul li a {
     text-decoration: none;
-    transition: color 0.3s; /* Transición suave del color al pasar el ratón */
+    color: #fff; /* Color del texto del menú */
 }
-
-.menu ul li a:hover {
+nav ul li a:hover {
     color: #FFA000; /* Cambio de color al pasar el ratón */
 }
 .main-content{
